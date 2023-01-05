@@ -38,10 +38,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Saraff.Twain.DSX\Saraff.Twain.DSX.csproj" />
+    <PackageReference Include="Saraff.Twain.DS" Version="1.0.5-rc748" />
   </ItemGroup>
 
   <ItemGroup>
