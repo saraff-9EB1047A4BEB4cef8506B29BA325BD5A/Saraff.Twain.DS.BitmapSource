@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>Svn</SccProjectName>
+    <SccProvider>SubversionScc</SccProvider>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Saraff.Twain.DS.BitmapSource</AssemblyName>
+    <RootNamespace>Saraff.Twain.DS.BitmapSource</RootNamespace>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>sign.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.5.755</Version>
+    <Company>SARAFF SOFTWARE</Company>
+    <Description>Simplifies the creation of a Data Source, if it returns a bitmap.</Description>
+    <Copyright>Copyright © SARAFF 2016</Copyright>
+    <PackageProjectUrl>https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.DS.BitmapSource</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.DS.BitmapSource.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>TWAIN DS DataSource Bitmap C# .NET Open Source OSS x64</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Saraff.Twain.DSX\Saraff.Twain.DSX.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

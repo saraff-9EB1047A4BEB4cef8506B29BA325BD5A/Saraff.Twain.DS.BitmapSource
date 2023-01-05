@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <license type="expression">LGPL-3.0-or-later</license>
+    <projectUrl>https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.DS.BitmapSource</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes />
+    <copyright>Copyright SARAFF 2016</copyright>
+    <tags>TWAIN DS DataSource Bitmap C# .NET FREE Open Source OSS x64</tags>
+    <dependencies>
+      <dependency id="Saraff.Twain.DS" version="1.0.4.675" />
+    </dependencies>
+    <repository type="git" url="https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.DS.BitmapSource.git" branch="master" commit="0d2d3d64dc615533a9086ed02be41d32c409661c" />
+  </metadata>
+</package>
